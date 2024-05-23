@@ -22,11 +22,11 @@
                   <Font name="Cambria Bold Italic" size="13.0" />
                </font>
             </Label>
-            <VBox alignment="TOP_CENTER" prefHeight="332.0" prefWidth="182.0">
+            <VBox alignment="CENTER" prefHeight="332.0" prefWidth="182.0">
                <children>
-                  <ImageView fitHeight="283.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="100.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../icons/dark/stu.png" />
+                        <Image url="@../../../icons/dark/books.png" />
                      </image>
                   </ImageView>
                </children>
