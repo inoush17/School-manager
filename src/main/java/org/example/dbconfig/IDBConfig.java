@@ -13,7 +13,7 @@ public interface IDBConfig {
     static Connection getConnection(){
         try{
             DriverManager.getConnection(URL, username, password);
-            System.out.println("Connexion à le base de données effectuée");
+            System.out.println("Connexion à la base de données effectuée");
             return DriverManager.getConnection(URL, username, password);
         } catch (Exception e){
             System.out.println("Connexion à la base de données non aboutie");

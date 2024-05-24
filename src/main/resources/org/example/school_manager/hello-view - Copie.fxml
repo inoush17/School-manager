@@ -42,7 +42,7 @@
                   </VBox>
                   <VBox alignment="TOP_CENTER" prefHeight="85.0" prefWidth="150.0">
                      <children>
-                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Logiciel de création d'élève vers la base de donnée" textAlignment="CENTER" wrappingWidth="113.28356170654297">
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Logiciel de création d'élève vers la base de connée" textAlignment="CENTER" wrappingWidth="113.28356170654297">
                            <font>
                               <Font name="Cambria Bold" size="14.0" />
                            </font>
@@ -65,7 +65,7 @@
                   <Insets top="4.0" />
                </VBox.margin>
                <children>
-                  <Label text="Page de connexion">
+                  <Label text="Page de création de compte">
                      <font>
                         <Font name="Cambria Bold" size="20.0" />
                      </font>
@@ -97,13 +97,13 @@
                   </PasswordField>
                   <HBox alignment="CENTER_LEFT" prefHeight="54.0" prefWidth="393.0">
                      <children>
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pas encore de compte ?" />
-                        <Button mnemonicParsing="false" onAction="#onRegister" style="-fx-background-color: transparent;" text="S'inscrire" textFill="#270c5a" underline="true">
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Déjà un compte ?" />
+                        <Button mnemonicParsing="false" onAction="#onSignIn" style="-fx-background-color: transparent;" text="Se connecter" textFill="#270c5a" underline="true">
                            <cursor>
                               <Cursor fx:constant="HAND" />
                            </cursor>
                            <font>
-                              <Font name="Cambria Bold Italic" size="12.0" />
+                              <Font name="Cambria Bold" size="12.0" />
                            </font>
                         </Button>
                      </children>
@@ -113,7 +113,7 @@
                   <Insets bottom="20.0" left="50.0" right="50.0" top="20.0" />
                </VBox.margin>
             </VBox>
-            <Button mnemonicParsing="false" onAction="#onSubmitSignIn" prefHeight="26.0" prefWidth="319.0" style="-fx-background-color: #270C5A;" text="Connexion" textFill="WHITE">
+            <Button mnemonicParsing="false" onAction="#onSubmitRegister" prefHeight="26.0" prefWidth="319.0" style="-fx-background-color: #270C5A;" text="Inscription" textFill="WHITE">
                <font>
                   <Font name="Cambria Bold" size="14.0" />
                </font>
